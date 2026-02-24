@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.srcs/sources_1/imports/src/sevenseg_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sevenseg_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.srcs/sim_1/imports/src/sevenseg_decoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sevenseg_decoder_tb'

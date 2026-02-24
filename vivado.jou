@@ -42,3 +42,16 @@ set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
 set_property PROGRAM.FILE {A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0]
 program_hw_devices [get_hw_devices xc7a35t_0]
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+source sevenseg_decoder_tb.tcl
+close_sim
+launch_simulation
+source sevenseg_decoder_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
