@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 24 09:43:12 2026
+# Process ID         : 6836
+# Current directory  : A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent2152 A:\_root\School\2026 Spring\4. ECE 281\Lab 2 Trying Again\binaryHexDisp.xpr
+# Log file           : A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/vivado.log
+# Journal file       : A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again\vivado.jou
+# Running On         : Cullen-G16
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 51140 MB
+# Swap memory        : 3221 MB
+# Total Virtual      : 54361 MB
+# Available Virtual  : 32659 MB
+#-----------------------------------------------------------
+start_gui
+open_project {A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.xpr}
+import_files -fileset sim_1 {{A:/_root/School/2026 Spring/4. ECE 281/ece281-lab2 - COPY TO UBUNTU/src/sevenseg_decoder_tb.vhd}}
+import_files

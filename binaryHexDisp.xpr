@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="68" Path="A:/_root/School/2026 Spring/4. ECE 281/ece281-lab2 - COPY TO UBUNTU/binaryHexDisp/binaryHexDisp.xpr">
+<Project Product="Vivado" Version="7" Minor="68" Path="A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="2c4cd815b4f04834a3ee2131ba1d88f2"/>
@@ -92,14 +92,18 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../src/sevenseg_decoder.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/src/sevenseg_decoder.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ece281-lab2 - COPY TO UBUNTU/src/sevenseg_decoder.vhd"/>
+          <Attr Name="ImportTime" Val="1771524910"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../src/top_basys3.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/src/top_basys3.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ece281-lab2 - COPY TO UBUNTU/src/top_basys3.vhd"/>
+          <Attr Name="ImportTime" Val="1771522678"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -112,8 +116,10 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../src/Basys3_Master.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/src/Basys3_Master.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ece281-lab2 - COPY TO UBUNTU/src/Basys3_Master.xdc"/>
+          <Attr Name="ImportTime" Val="1771522951"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -124,8 +130,10 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../src/sevenseg_decoder_tb.vhd">
+      <File Path="$PSRCDIR/sim_1/imports/src/sevenseg_decoder_tb.vhd">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ece281-lab2 - COPY TO UBUNTU/src/sevenseg_decoder_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1771564708"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
