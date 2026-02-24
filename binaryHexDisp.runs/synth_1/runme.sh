@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='A:/_root/School/2026 Spring/4. ECE 281/ece281-lab2 - COPY TO UBUNTU/Seven_Segment_Display_Decoder.runs/synth_1'
+HD_PWD='A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

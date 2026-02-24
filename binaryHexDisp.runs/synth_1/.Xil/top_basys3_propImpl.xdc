@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{A:/_root/School/2026 Spring/4. ECE 281/ece281-lab2 - COPY TO UBUNTU/src/Basys3_Master.xdc} rfile:../../../src/Basys3_Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{A:/_root/School/2026 Spring/4. ECE 281/Lab 2 Trying Again/binaryHexDisp.srcs/constrs_1/imports/src/Basys3_Master.xdc} rfile:../../../binaryHexDisp.srcs/constrs_1/imports/src/Basys3_Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN V17 [get_ports {sw[0]}]
 set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
